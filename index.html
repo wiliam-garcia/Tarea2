@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>HTML</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  
+    <label> Seleccione el color del fondo:
+        <input type="color" value="#FF0000" id="colorFondo">
+    </label><br>
+
+    <label> Seleccione el color de la letra: 
+        <input type="color" value="#008000" id="colorLetra">
+    </label><br>
+
+    <label>Seleccione tamaño de fuente: 
+        <input type="range" id="tamanoFuente" min="1" max="50" value="25">
+    </label><br>
+
+    <div id="texto" >Soy un párrafo, ¡desde luego que lo soy!</div>
+
+    <button id="btnAplicar">Aplicar Cambios</button><br>
+    <button id="btnRevertir">Revertir Cambios</button>
+
+    <script src="./js/funcion.js"></script>
+</body>
+</html>
